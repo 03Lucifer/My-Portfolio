@@ -11,7 +11,7 @@ const errorMiddleware = require("./middlewares/error-middleware");
 
 // Handling Cors policy
 const corsOptions = {
-    origin: "",
+    origin: "https://my-portfolio-client-rouge.vercel.app",
     methods: "GET, PUT, POST, DELETE, HEAD, PATCH",
     credentials: true
 };
